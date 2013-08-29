@@ -1,0 +1,4 @@
+# set the runtime language. Ruby workers use "ruby"
+runtime "ruby"
+# exec is the file that will be executed:
+exec "hello_worker.rb"
